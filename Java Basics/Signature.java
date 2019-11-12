@@ -1,16 +1,17 @@
-class main 
+class Signature 
 {
 	public static void main(String args[])
 	{
-		System.out.println("Hello world");
+		DisplayName();
+		DisplayName("Vamshi");
 	}
 
-	public static DisplayName()
+	static void DisplayName()
 	{
 		System.out.println("No name is provided in the arguments");
 	}
 
-	public static DisplayName(String name)
+	static void DisplayName(String name)
 	{
 		System.out.println("The name is "+name);
 	}
